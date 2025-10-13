@@ -103,7 +103,7 @@ public class HelloFunctional {
    public static void main(String[] args) {
       String nama = "Febiana Saputri";
       String nim = "240320569";
-      List<String> produk = Arrays.asList("Kacang Hijau", "Kacang Tanah", "Kedelai");
+      List<String> produk = Arrays.asList("Kacang Tanah", "Bibit Padi", "Bibit Jagung");
       List<Integer> harga = Arrays.asList(12000, 160000, 21000);
       System.out.println("Hello World, I am " + nama + "-" + nim);
       System.out.println("Program Agri-POS World");
@@ -118,7 +118,7 @@ public class HelloFunctional {
 ---
 
 ## Hasil Eksekusi
-https://github.com/fabianasaputri-ops/oop-202501-240320569/tree/b01e004a0a51fd7148a0f583ffbdbbc408955876/praktikum/week1-setup-hello-pos/screenshots
+https://github.com/fabianasaputri-ops/oop-202501-240320569/tree/bbace47c2db0a9af9fee545b0c6eea4e0da1f756/praktikum/week1-setup-hello-pos/screenshots
 ---
 
 ## Analisis
