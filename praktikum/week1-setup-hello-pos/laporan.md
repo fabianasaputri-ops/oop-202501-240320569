@@ -40,6 +40,7 @@ Commit dengan pesan: week1-setup-hello-pos.
 
 ## Kode Program
 1. HelloProcedural
+```
 // HelloProcedural.java
 public class HelloProcedural {
     public static void main(String[] args) {
@@ -58,7 +59,9 @@ public class HelloProcedural {
        System.out.println("Total harga semua produk: " + total);
     }
  }
+```
  2. HelloOOP
+```
  //HelloOOP.java
 class Produk {
     String nama;
@@ -89,8 +92,10 @@ class Produk {
        System.out.println("Total harga semua produk: Rp" + total);
     }
  }
+```
 
  3. HelloFunctional
+```
 // HelloFunctional.java
 import java.util.*;
 import java.util.stream.*;
@@ -109,6 +114,7 @@ public class HelloFunctional {
       System.out.println("Total harga semua produk: Rp" + total);
    }
 }
+```
 ---
 
 ## Hasil Eksekusi
