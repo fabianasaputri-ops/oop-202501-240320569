@@ -120,6 +120,7 @@ Saat mengerjakan program minggu ini, saya sempat mengalami kendala karena kesala
 
 ## Kesimpulan
 Dengan menggunakan class dan object pada praktikum minggu ini, program menjadi lebih terstruktur, mudah dipahami, dan efisien dalam pengelolaan data. Setiap objek memiliki atribut dan perilaku sendiri, sehingga perubahan pada satu bagian tidak memengaruhi bagian lainnya. Selain itu, konsep OOP ini membuat program lebih fleksibel dan mudah dikembangkan untuk kebutuhan yang lebih kompleks di masa mendatang.
+
 ---
 
 ## Quiz
