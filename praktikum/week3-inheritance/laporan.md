@@ -132,9 +132,7 @@ public class MainInheritance {
 ---
 
 ## Hasil Eksekusi
-(Sertakan screenshot hasil eksekusi program.  
-![Screenshot hasil](screenshots/hasil.png)
-)
+(https://github.com/fabianasaputri-ops/oop-202501-240320569/tree/0faa21c0298ca41904f313e1d0a9ae568e4e17e9/praktikum/week3-inheritance/screenshots)
 ---
 
 ## Analisis
