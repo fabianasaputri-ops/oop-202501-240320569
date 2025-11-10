@@ -1,5 +1,5 @@
 # Laporan Praktikum Minggu 1 (sesuaikan minggu ke berapa?)
-Topik: [Tuliskan judul topik, misalnya "Class dan Object"]
+Topik: Main Polymorphism
 
 ## Identitas
 - Nama  : [Febiana Saputri]
@@ -45,7 +45,8 @@ Polymorphism adalah salah satu konsep utama dalam OOP (Object-Oriented Programmi
 ---
 
 ## Kode Program
-```1. Produk.java
+1. Produk.java
+```
 package model;
 
 public class Produk {
@@ -82,7 +83,8 @@ public class Produk {
     }
 }
 ```
-```2. Benih.java
+2. Benih.java
+```
 package model;
 
 public class Benih extends Produk {
@@ -99,7 +101,8 @@ public class Benih extends Produk {
     }
 }
 ```
-```3. Pupuk.java
+3. Pupuk.java
+```
 package model;
 
 public class Pupuk extends Produk {
@@ -116,7 +119,8 @@ public class Pupuk extends Produk {
     }
 }
 ```
-```4. AlatPertanian.java
+4. AlatPertanian.java
+```
 //overriding alat pertanian
 
 package com.upb.agripos.model;
@@ -134,7 +138,9 @@ public class AlatPertanian extends Produk {
         return "Alat Pertanian: " + super.getInfo() + ", Material: " + material;
     }
 }
-```5. MainPolymorphism.java
+```
+5. MainPolymorphism.java
+```
 //main program polymorphism
 
 package com.upb.agripos;
