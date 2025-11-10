@@ -125,51 +125,49 @@ public class Pupuk extends Produk {
 ```
 4. AlatPertanian.java
 ```
-//overriding alat pertanian
-
-package com.upb.agripos.model;
+package model;
 
 public class AlatPertanian extends Produk {
-    private String material;
+    private String bahan;
 
-    public AlatPertanian(String kode, String nama, double harga, int stok, String material) {
+    public AlatPertanian(String kode, String nama, double harga, int stok, String bahan) {
         super(kode, nama, harga, stok);
-        this.material = material;
+        this.bahan = bahan;
     }
 
     @Override
     public String getInfo() {
-        return "Alat Pertanian: " + super.getInfo() + ", Material: " + material;
+        return "Alat Pertanian - " + super.getInfo() + ", Bahan: " + bahan;
     }
 }
 ```
 5. MainPolymorphism.java
 ```
-//main program polymorphism
-
-package com.upb.agripos;
-
-import com.upb.agripos.model.*;
-import com.upb.agripos.util.CreditBy;
+import model.*;
+import util.*;
 
 public class MainPolymorphism {
     public static void main(String[] args) {
-        
-        System.out.println("=== Program Agri-POS ===");
-        System.out.println("------------------------");
-        System.out.println("Daftar Produk: ");
-        
+        // Dynamic binding: semua disimpan sebagai Produk
         Produk[] daftarProduk = {
             new Benih("BNH-001", "Benih Padi IR64", 25000, 100, "IR64"),
-            new Pupuk("PPK-101", "Pupuk Urea", 350000, 40, "Urea"),
+            new Pupuk("PPK-101", "Pupuk Urea 50kg", 350000, 40, "Urea"),
             new AlatPertanian("ALT-501", "Cangkul Baja", 90000, 15, "Baja")
         };
 
+        System.out.println("=== Daftar Produk (Polymorphism) ===");
         for (Produk p : daftarProduk) {
-            System.out.println(p.getInfo()); // Dynamic Binding
+            System.out.println(p.getInfo());
         }
 
-        CreditBy.print("Difa Rizkiana Fauziyah", "240320564");
+        // Overloading
+        System.out.println("\n=== Contoh Overloading ===");
+        Produk benih = new Benih("BNH-002", "Benih Jagung Hibrida", 20000, 50, "Bisi-18");
+        benih.tambahStok(10);      // int
+        benih.tambahStok(5.5);     // double
+        System.out.println(benih.getInfo());
+
+        CreditBy.tampilkan("Febiana Saputri", "240320569");
     }
 }
 ```
