@@ -1,5 +1,6 @@
 # Laporan Praktikum Minggu 1 (sesuaikan minggu ke berapa?)
-Topik: Main Polymorphism
+Topik: Polymorphism (Info Produk)
+
 
 ## Identitas
 - Nama  : [Febiana Saputri]
@@ -17,30 +18,33 @@ Topik: Main Polymorphism
 ---
 
 ## Dasar Teori
-Polymorphism adalah salah satu konsep utama dalam OOP (Object-Oriented Programming) yang memungkinkan satu interface memiliki banyak implementasi.
-   -Polymorphism (Banyak Bentuk): kemampuan objek berbeda untuk merespons method dengan cara yang berbeda.
-   -Overriding: mendefinisikan ulang method superclass di subclass agar memiliki perilaku berbeda.
-   -Overloading: membuat beberapa method dengan nama sama, tetapi parameter berbeda dalam satu class.
-   -Dynamic Binding: pemanggilan method yang ditentukan saat runtime berdasarkan tipe objek sebenarnya.
-   -Dengan polymorphism, program menjadi lebih fleksibel, mudah dikembangkan, dan mendukung prinsip code reusability.
+Polymorphism berarti "banyak bentuk" dan memungkinkan objek yang berbeda merespons panggilan method yang sama dengan cara yang berbeda.
+1. Overloading : mendefinisikan method dengan nama sama tetapi parameter berbeda.  
+2. Overriding : subclass mengganti implementasi method dari superclass. 
+3. Dynamic binding : pemanggilan method ditentukan saat runtime, bukan compile time.
+
+Dalam konteks Agri-POS, misalnya:
+- Method getInfo() pada Produk dioverride oleh Benih, Pupuk, AlatPertanian untuk menampilkan detail spesifik.
+- Method tambahStok() bisa dibuat overload dengan parameter berbeda (int, double).
 
 ---
 
 ## Langkah Praktikum
 1. Overloading
-   -Tambahkan method tambahStok(int jumlah) dan tambahStok(double jumlah) pada class Produk.
-3. Overriding
+   - Tambahkan method tambahStok(int jumlah) dan tambahStok(double jumlah) pada class Produk.
+2. Overriding
    - Tambahkan method getInfo() pada superclass Produk.
    - Override method getInfo() pada subclass Benih, Pupuk, dan AlatPertanian.
-4. Dynamic Binding
+3. Dynamic Binding
    - Buat array Produk[] daftarProduk yang berisi objek Benih, Pupuk, dan AlatPertanian.
    - Loop array tersebut dan panggil getInfo(). Perhatikan bagaimana Java memanggil method sesuai jenis objek aktual.
-5. Main Class
+4. Main Class
    - Buat MainPolymorphism.java untuk mendemonstrasikan overloading, overriding, dan dynamic binding.
-6. CreditBy
+5. CreditBy
    - Tetap panggil CreditBy.print("<NIM>', "<Nama>").
-7. Commit dan Push
+6. Commit dan Push
    - Commit dengan Pesan: week4-polymorhism.
+
 
 ---
 
