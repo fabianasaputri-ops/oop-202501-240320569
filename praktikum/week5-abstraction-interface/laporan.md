@@ -81,9 +81,7 @@ public class MainAbstraction {
 ---
 
 ## Hasil Eksekusi
-(Sertakan screenshot hasil eksekusi program.  
-![Screenshot hasil](screenshots/SS-WEEK5.png)
-)
+https://github.com/fabianasaputri-ops/oop-202501-240320569/tree/main/praktikum/week5-abstraction-interface/screenshots
 ---
 
 ## Analisis
