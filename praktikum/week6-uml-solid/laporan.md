@@ -74,7 +74,7 @@ Setiap iterasi lakukan commit incremental dengan pesan: week6-uml-solid: iterasi
 **3. Sequence Diagram**
    
 
-![Screenshot hasil](/praktikum/week6-uml-solid/screenshots/sq.png)
+![Screenshot hasil](https://github.com/fabianasaputri-ops/oop-202501-240320569/blob/main/praktikum/week6-uml-solid/screenshots/sq.png)
    Fungsi: Sequence Diagram digunakan untuk menggambarkan urutan interaksi antar objek atau komponen sistem berdasarkan waktu. Diagram ini menampilkan bagaimana pesan dikirim dan diterima antar objek untuk merealisasikan suatu proses.
    
    Pada sistem Agri-POS, Sequence Diagram menggambarkan proses pembayaran secara detail, mulai dari:
