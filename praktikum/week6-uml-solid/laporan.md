@@ -96,7 +96,7 @@ Setiap iterasi lakukan commit incremental dengan pesan: week6-uml-solid: iterasi
 
 **4. Class Diagram**
 
-![Screenshot hasil](/praktikum/week6-uml-solid/screenshots/class.png)
+![Screenshot hasil](https://github.com/fabianasaputri-ops/oop-202501-240320569/blob/main/praktikum/week6-uml-solid/screenshots/class.png)
 
    Fungsi: Class Diagram digunakan untuk menggambarkan struktur statis sistem, yang meliputi kelas, atribut, method, serta hubungan antar kelas. Diagram ini menjadi blueprint untuk implementasi sistem dalam bentuk kode program.
    Pada sistem Agri-POS, Class Diagram mencakup kelas-kelas utama seperti:
