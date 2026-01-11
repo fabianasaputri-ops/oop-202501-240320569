@@ -50,7 +50,7 @@ Setiap iterasi lakukan commit incremental dengan pesan: week6-uml-solid: iterasi
 **2. Activity Diagram**
 
 
-![Screenshot hasil](/praktikum/week6-uml-solid/screenshots/activity.png)
+![Screenshot hasil](https://github.com/fabianasaputri-ops/oop-202501-240320569/blob/main/praktikum/week6-uml-solid/screenshots/activity.png)
 
    Fungsi: Activity Diagram digunakan untuk menggambarkan alur proses atau aliran kerja sistem secara berurutan dari awal hingga akhir. Diagram ini menunjukkan langkah-langkah aktivitas, percabangan keputusan, serta kondisi sukses dan gagal dalam proses bisnis.
    
