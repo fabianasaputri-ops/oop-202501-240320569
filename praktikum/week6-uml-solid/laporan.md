@@ -26,7 +26,7 @@ Setiap iterasi lakukan commit incremental dengan pesan: week6-uml-solid: iterasi
 ## Penjelasan setiap diagram
 **1. Use Case Diagram**
 
-![Screenshot hasil](/praktikum/week6-uml-solid/screenshots/use%20case.png)
+![Screenshot hasil](https://github.com/fabianasaputri-ops/oop-202501-240320569/blob/main/praktikum/week6-uml-solid/screenshots/use%20case.png)
 
 
    Fungsi: Use Case Diagram digunakan untuk menggambarkan fungsi-fungsi utama sistem serta interaksi antara aktor dengan sistem Agri-POS. Diagram ini menunjukkan apa saja yang dapat dilakukan oleh pengguna tanpa menjelaskan bagaimana proses tersebut dijalankan secara detail.Pada sistem Agri-POS, aktor utama terdiri dari Kasir dan Admin. Kasir berinteraksi dengan sistem untuk melakukan proses penjualan, sedangkan Admin berfokus pada pengelolaan data dan laporan.
