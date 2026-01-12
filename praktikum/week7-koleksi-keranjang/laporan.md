@@ -75,7 +75,7 @@ public class MainCart {
 
 ## Hasil Eksekusi
 (Sertakan screenshot hasil eksekusi program.  
-![Screenshot hasil](/oop-202501-240320563/praktikum/week7-koleksi-keranjang/screenshots/MainCart.png)
+![Screenshot hasil](https://github.com/fabianasaputri-ops/oop-202501-240320569/tree/main/praktikum/week7-koleksi-keranjang/screenshots)
 )
 ---
 
