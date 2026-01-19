@@ -131,7 +131,7 @@ public class ProductTest {
 
 ## Hasil Eksekusi
 ![alt text](<Hasil Pengujian.png>)
-![alt text](<hasil week10.png>)
+![alt text](<hasil week-10.png>)
 ---
 
 ## Analisis
