@@ -130,7 +130,7 @@ public class ProductTest {
 ---
 
 ## Hasil Eksekusi
-![alt text](<Hasil Pengujian.jpeg>)
+![alt text](<Hasil Pengujian Week-10.jpeg>)
 ![alt text](<hasil week-10.jpeg>)
 ---
 
